@@ -64,6 +64,20 @@ export const InformationBasic = () => {
           placeholder="Correo..."
         />
       </div>
+      <div className="">
+        <label
+          htmlFor="password"
+          className="block mb-2 text-sm font-medium text-black"
+        >
+          Contraseña
+        </label>
+        <input
+          type="password"
+          id="password"
+          className="bg-white border border-gray-300 text-gray-800 placeholder-gray-500 text-sm rounded-lg block w-full p-2.5 py-3.5"
+          placeholder="Contraseña..."
+        />
+      </div>
     </>
   );
 };

@@ -22,7 +22,7 @@ export const AuthLayout = ({
           </figcaption>
         </figure>
 
-        <div className="flex flex-col items-center mb-8">
+        <div className="flex flex-col items-center mb-4">
           <h2 className="text-2xl font-medium text-black mb-2">{title}</h2>
 
           <p className="text-gray-500 text-sm text-center max-w-md">
@@ -30,7 +30,7 @@ export const AuthLayout = ({
           </p>
         </div>
 
-        <form className="grid grid-cols-1 gap-4">{children}</form>
+        {children}
       </div>
 
       <figure className="hidden lg:block">
